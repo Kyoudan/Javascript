@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+    /*
+    onclick - acionado após o click
+    ondblclick - acionado quando clica duas vezes
+    onmoseup - quando o click sobre algum elemento e acionado
+    onmouseover - acionado quando coloca o mouse no elemento
+    onmouseout - acionado quando tira o mouse do elemento
+    */
+        function teste(){
+            alert('Você clicou')
+        }
+
+        function teste1(){
+            alert('Você clicou duas vezes')
+        }
+
+        function teste2(){
+            alert('Você fez uma ação')
+        }
+
+        function teste3(){
+            alert('Colocou o mouse ai pq?')
+        }
+
+        function teste4(){
+            alert('Tirou pq? ahn?')
+        }
+
+    </script>
+</head>
+<body>
+    <div onClick="teste()" style="background: gray; height: 150px; width: 150px;"></div>
+    <hr>
+    <div ondblClick="teste1()" style="background: gray; height: 150px; width: 150px;"></div>
+    <hr>
+
+    <div onmouseup="teste2()" style="background: gray; height: 150px; width: 150px;"></div>
+    <hr>
+
+    <div onmouseover="teste3()" style="background: gray; height: 150px; width: 150px;"></div>
+    <hr>
+
+    <div onmouseout="teste4()" style="background: gray; height: 150px; width: 150px;"></div>
+    <hr>
+
+
+
+
+</body>
+</html>

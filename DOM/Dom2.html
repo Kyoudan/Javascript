@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function processo(){
+        var valor = document.getElementById('digitar').value
+
+        document.getElementById('digitar').value = ''
+
+        valor.trim()
+
+        switch(valor){
+            case '0':
+            case '1':
+            case '2':
+            case '3':
+            case '4':
+            case '5':
+            case '6':
+            case '7':
+            case '8':
+            case '9':
+                document.getElementById('Numeros').value += valor
+            break;
+            
+            default:
+                document.getElementById('Letras').value += valor
+            }
+
+
+        }
+    </script>
+</head>
+<body>
+    <input type="text" placeholder="Digite aqui" id="digitar" onkeyup="processo()">
+    <hr>
+    <input type="text" id="Letras" disabled="disabled" />
+    <input type="text" id="Numeros" disabled="disabled" />
+
+
+</body>
+</html>
