@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function acao1(){
+            alert('Clicou pq? Ein!?')
+        }
+
+        function acao2(){
+            alert('Olaaa!!')
+        }
+
+        function acao3(){
+            alert('Tchauuu!!')
+        }
+    </script>
+</head>
+<body>
+    <p>Quando pressionar</p>
+    <input onkeydown="acao1()" type="text" />
+    <hr>
+    <p>Enquanto pressiona</p>
+    <input onkeypress="acao2()" type="text" />
+    <hr>
+    <p>Após pressionar</p>
+    <input onkeyup="acao3()" type="text" />
+    <hr>
+    <p>Tudo junto</p>
+    <input onkeyup="acao1()" onkeydown="acao1()" onkeypress="acao2()" type="text" />
+</body>
+</html>
