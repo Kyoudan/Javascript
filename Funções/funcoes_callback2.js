@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script>
+
         function exibirArtigo (id, callbacksucesso, callbackerro){
             if(true){
                 callbacksucesso('Funções de callback em JS', 'Funções de callback são muito...')
@@ -34,11 +27,3 @@
         exibirArtigo(1, callbacksucesso, callbackerro)
         
         
-
-
-        </script>
-</head>
-<body>
-
-</body>
-</html>
