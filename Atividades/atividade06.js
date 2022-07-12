@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script>
+
         var objetos = ['cadeira', 'impressora', 'garfo']
 
         function adicionar(){ 
@@ -28,13 +21,3 @@
         }
 
 
-
-
-    </script>
-</head>
-<body>
-    <input type="text" id="adicionando">
-    <button onclick="adicionar()" id="adicionei">Adicionar</button>
-    <button onclick="ordenar()" id="ordenando">Ordernar</button>
-</body>
-</html>
