@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script>
+
         function cores(coresdoquadrado){
             document.getElementById('quadrado').style.backgroundColor = coresdoquadrado
         }
@@ -17,27 +10,3 @@
         function tamanhoo(tamanhodoquadrado){
             document.getElementById('quadrado').style.height = tamanhodoquadrado
         }
-    </script>
-</head>
-<body>
-    <h3>Manipulando Estilos</h3>
-    <li>Cores</li>
-    <button onclick="cores('#abfffc')">Cor1</button>
-    <button onclick="cores('#6bff90')">Cor2</button>
-    <button onclick="cores('#8585ff')">Cor3</button>
-    <br>
-    <li>Largura</li>
-    <button onclick="tamanho('100px')">Pequeno</button>
-    <button onclick="tamanho('150px')">Médio</button>
-    <button onclick="tamanho('200px')">Grande</button>
-    <li>Altura</li>
-    <button onclick="tamanhoo('100px')">Pequeno</button>
-    <button onclick="tamanhoo('150px')">Médio</button>
-    <button onclick="tamanhoo('200px')">Grande</button>
-    <hr>
-
-    <div id="quadrado" style="border: solid 1px #000; height: 50px; width: 50px;">
-       
-    </div>
-</body>
-</html>
