@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
     <style>
         .estilo1{
             padding: 20px;
@@ -31,22 +25,14 @@
             justify-content: center;
         }
     </style>
-    <script>
+
+
+
         function clique(){
             document.getElementById('manipulando').className = 'estilo2'
         }
         function voltar(){
             document.getElementById('manipulando').className = 'estilo1'
         }
-    </script>
 
-</head>
-<body>
-    <h3>Manipulando class</h3>
-    <div id="manipulando" class="estilo1"></div>
-    <hr>
-    <br>
-    <button onclick="clique()" style="cursor: pointer;">Mudar estilo</button>
-    <button onclick="voltar()" style="cursor: pointer;">Voltar estilo</button>
-</body>
-</html>
+
