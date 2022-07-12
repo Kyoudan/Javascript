@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script>
+
         var num1 = prompt('digite um numero')
         var operacao = prompt('Digite a operação desejada')
         var num2 = prompt('digite outro numero')
@@ -39,10 +32,3 @@
         }
 
         document.write('O resultado é: ' + calculo(num1, num2, operacao))
-
-    </script>
-</head>
-<body>
-    
-</body>
-</html>
